@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+/* .backimg{
+    display: flex;
+} */
+.logo{
+    width: 100px;
+    margin-left:580px;
+    height: auto;
+}
+
+ header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    background: var(--bg-color);
+    box-shadow: 0 1px 6px 0 rgb(32 33 36 / 10%) ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 7px 7%;
+    transition: all .50s ease;
+}
+.navbar{
+    display: flex;
+}
+.navbar a{
+      color: var(--text-color);
+      font-size: 15px;
+      font-weight: 500;
+      margin: 10px 22px;
+      transition: all .50s ease;
+}
+.navbar :hover{
+   color: var(--main-color);
+} 
+
+
+
+.delman img{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.login-mainframe{
+     justify-content: center;
+     margin-top: 250px;
+     margin-left: 600px;
+     padding: 20px;
+     width: 370px;
+     background-color: black;
+     border-radius: 30px;
+     background: transparent;
+     backdrop-filter: 0px 0px 20px black;
+     
+}
+.formback{
+    filter: blur(10px);
+}
+fieldset{
+    margin-top: 300px;
+    width: 100px;
+    height: 300px;
+}
+
+fieldset{
+    position: absolute;
+    width: 470px;
+    height: 440px;
+    border-radius: 100px;
+    margin-top: -40px;
+    margin-left: 530px;
+    z-index: -1;
+    filter: blur(2px);
+    background: cornflowerblue;
+    box-shadow: #010101 ;
+   
+}
+                                    /* login button neair dont have an account  */
+.btn-down{
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    background-color:crimson;
+    color: #fff;
+    margin-left: 70px;
+    border: none;
+    border-radius: 20px;
+    font-size: 20px;
+}
+.btn-down:hover{
+      background-color: #fff;
+      color: cornflowerblue;
+}
+h3{
+    padding-left: 90px;
+    color: #fff;
+    font-size: 27px;
+}
+
+
+
+.password{
+    padding-right: 40px;
+}
+
+.dont-have-an-account{
+    padding-left: 20px;
+}
+*::placeholder{
+    text-align: center;
+}
